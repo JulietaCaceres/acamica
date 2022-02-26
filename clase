@@ -1,0 +1,30 @@
+L1 para feature selection
+
+Dropout--> para mejorar redes neuronales
+
+funciones de activacion
+ con la funcion sigmoide puede ser dificil encontrar los minomsol locarles, ya que backpropagation tiene las derivadas multiplcand
+
+Hupervolica tangente funcion
+
+ReLU
+
+stochastic gradien descent 
+
+learning rate, high learning te da cambios muy grandes que te hacen oscilar sobre el minimo. low te hace llegar mas lento
+
+Momentum --> ponderacion de los pasos para llegar al minimo local. mide la inercia de la curva de aprendizaje
+
+
+
+Filtrado de datos
+===================
+
+Intermediate Machine Learning Kaggle
+
+Prestar mucha atencion a cuales son los features que si no te pones a pensar tomas como datos para predecir y no lo deberias hacer
+
+ejemplo quiero saber si al tipo le agarro nejumonia o no entonces te dan si tomo antibiotivo o no, tomar antibioticos esta estrictamente relacionado con lo que queres predecir "si esta enfermo o no" y eso es una concecuancia directa! entonces seria muuy obvio usarlo
+
+Train test contaminarion
+
